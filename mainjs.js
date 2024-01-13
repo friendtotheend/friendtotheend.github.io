@@ -3,7 +3,7 @@
 
 const image = document.getElementById('image');
 const cropper = new Cropper(image, {
-  aspectRatio: 16 / 9,
+  aspectRatio: 1 / 1,
   crop(event) {
     console.log(event.detail.x);
     console.log(event.detail.y);
